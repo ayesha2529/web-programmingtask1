@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 01</title>
+    </head>
+    <body>
+        <h1>Welcome to my Webpage</h1>
+        <p>This is a basic introduction to my Webpage. It includes some forms, pictures and an interactive form</p>
+    
+        <!--Anchor Tags-->
+        <a href="https://www.google.com/">Visit and external page</a><br>
+        <a href="#form">Go to internal page</a><br>
+
+        <!--Image-->
+        <img src="download.jpg" alt="image" style="height: 300px;">
+        <hr>
+
+        <!--Form-->
+        <section id="form">
+            <form action="/" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="age">Age</label>
+                <input type="text" id="age" name="age" required><br>
+
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="Female">
+                <label for="female">Female</label><br>
+
+                <label for="subscribe">Subscribe to Newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="Yes"><br>
+
+                <label for="city">Choose City:</label>
+                <select name="city" id="city">
+                    <option value="city1">City1</option>
+                    <option value="city2">City2</option>
+                    <option value="city3">City3</option>
+                    <option value="city4">City4</option>
+                </select><br>
+
+                <label for="msg">Message:</label><br>
+                <textarea id="msg" name="msg" rows="4" cols="50" required></textarea><br>
+
+                <label for="myFile">Upload a file:</label>
+                <input type="file" id="myFile" name="filename"><br>
+
+                <input type="submit">
+            </form>
+        </section>
+
+        <hr>
+
+        <video  width="300" height="300" controls> <source src="task5a.mp4" type="video/mp4"></video>
+        <audio width="300" height="300" controls> <source src="https://www.hungama.com/song/dil-galti-kar-baitha-hai-feat-mouni-roy/75154983/
+            View more at: https://www.hungama.com/song/dil-galti-kar-baitha-hai-feat-mouni-roy/75154983/" type="audio/mp3"></audio>
+            
+
+        <hr> 
+
+        <footer>
+            <p>&copy; 2024 MyWebsite.com</p>
+        </footer>
+    </body>
+</html>
